@@ -1,0 +1,92 @@
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2;
+}
+
+h2 {
+    color: black;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.formContainer {
+    background-color: #ffffff;
+    width: 400px;
+    min-height: 400px;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.peso input, .altura input {
+    width: 300px;
+    margin-top: 20px;
+    padding: 8px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.148) ;
+    border-radius: 8px;
+    
+}
+.peso input:focus, .altura input:focus {
+    border: 1px solid rgba(0, 0, 0, 0.471) ;
+    border-radius: 8px;
+    
+}
+
+.btn {
+    width: 300px;
+    margin-top: 20px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.btn[type=submit] {
+    background-color: #6dff8f;
+}
+.btn[type=reset] {
+    background-color: #ff776d;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  /* Posiciona exatamente no mesmo tamanho do botão */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 8px;
+  z-index: -1; /* Joga a borda para trás do botão */
+  /* A mágica do movimento da borda */
+  transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.btn:hover {
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.05);
+}
+
+.btn:active {
+    transition: transform 0.1s ease-in-out;
+    transform: translateY(1px) scale(0.97); 
+}
+
+.resultado {
+    margin-top: 15px;
+    font-size: 10px;
+    color: red;
+}
