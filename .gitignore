@@ -1,0 +1,41 @@
+# Dependências
+**/node_modules/
+
+# Builds e cobertura de testes
+**/dist/
+**/coverage/
+**/.nyc_output/
+*.lcov
+
+# Cache de ferramentas
+**/.vite/
+**/.eslintcache
+**/.cache/
+*.tsbuildinfo
+
+# Logs e relatórios de execução
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Arquivos de ambiente locais e possíveis segredos
+.env
+.env.*.local
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Configurações locais do editor
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# Artefatos de empacotamento npm
+*.tgz
