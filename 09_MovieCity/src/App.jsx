@@ -1,14 +1,10 @@
-import Banner from './components/banner.jsx'
-import Header from './components/header.jsx'
+import Home from "./components/Home.jsx"
 import './App.css'
 
 function App() {
   return (
     <>
-      <Header />
-      <main>
-        <Banner />
-      </main>
+      <Home />
       <footer className="site-footer" id="contato">
         MovieCity — escolha sua próxima história.
       </footer>

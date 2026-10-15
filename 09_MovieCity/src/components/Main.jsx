@@ -4,7 +4,7 @@ import mowgliImage from '../assets/mowgli.jpg'
 import shiftImage from '../assets/shift.png'
 import squidGameImage from '../assets/squidgame.webp'
 import transformersImage from '../assets/transformers.jpg'
-import './banner.css'
+import './Main.css'
 
 const movies = [
   { title: 'Afterlife', image: afterlifeImage },
@@ -15,7 +15,7 @@ const movies = [
   { title: 'Harry Potter e a Pedra Filosofal', image: harryPotterImage },
 ]
 
-function Banner() {
+function Main() {
   return (
     <section className="movie-banner" aria-labelledby="movie-banner-title">
       <div className="banner-copy" id="sobre">
@@ -43,4 +43,4 @@ function Banner() {
   )
 }
 
-export default Banner
+export default Main
