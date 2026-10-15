@@ -60,7 +60,3 @@ npm run build    # gera a versão de produção
 npm run lint     # verifica problemas com ESLint
 npm run preview  # visualiza a build de produção
 ```
-
-## Organização dos commits
-
-A sequência sugerida para registrar a evolução do repositório está documentada em [`PLANO-DE-COMMITS.md`](PLANO-DE-COMMITS.md). Ela acompanha a ordem pedagógica dos módulos e mantém cada commit concentrado em uma etapa compreensível.
