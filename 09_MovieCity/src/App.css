@@ -1,0 +1,16 @@
+main {
+  flex: 1;
+}
+
+.site-footer {
+  padding: 1.5rem 2.5rem;
+  color: #888;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  .site-footer {
+    padding: 1.25rem;
+  }
+}
